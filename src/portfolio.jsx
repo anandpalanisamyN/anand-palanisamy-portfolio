@@ -2,6 +2,7 @@ import { useState } from "react";
 import About from "./components/sections/About";
 import Experience from "./components/sections/Experience";
 import Hero from "./components/sections/Hero";
+import Skills from "./components/sections/Skills";
 
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -106,8 +107,8 @@ export default function Portfolio() {
       <Hero />
       <About />
       <Experience />
-      {/* <Skills />
-      <Projects />
+      <Skills />
+      {/* <Projects />
       <Contact /> */}
 
       {/* Footer */}
