@@ -1,5 +1,6 @@
 import { useState } from "react";
 import About from "./components/sections/About";
+import Experience from "./components/sections/Experience";
 import Hero from "./components/sections/Hero";
 
 export default function Portfolio() {
@@ -104,8 +105,8 @@ export default function Portfolio() {
       {/* Sections */}
       <Hero />
       <About />
-      {/* <Experience />
-      <Skills />
+      <Experience />
+      {/* <Skills />
       <Projects />
       <Contact /> */}
 
