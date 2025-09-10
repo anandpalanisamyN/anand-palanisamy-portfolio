@@ -1,7 +1,7 @@
 import { useState } from "react";
-import About from "./components/sections/About";
-import Experience from "./components/sections/Experience";
-import Hero from "./components/sections/Hero";
+import About from "./components/sections/About.jsx";
+import Experience from "./components/sections/Experience.jsx";
+import Hero from "./components/sections/Hero.jsx";
 
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
