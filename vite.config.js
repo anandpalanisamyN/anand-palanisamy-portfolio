@@ -7,7 +7,5 @@ export default defineConfig({
     host: true,
     port: 5173,
   },
-  resolve: {
-    extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".json"],
-  },
+  base: "/anand-palanisamy-portfolio/",
 });
