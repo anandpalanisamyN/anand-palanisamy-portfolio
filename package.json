@@ -5,15 +5,17 @@
   "description": "A modern personal portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.",
   "author": "anandpalanisamy.n@gmail.com",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host"
   },
   "dependencies": {
     "framer-motion": "^11.0.0",
+    "motion": "^12.23.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
