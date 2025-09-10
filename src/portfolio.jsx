@@ -1,7 +1,5 @@
 import { useState } from "react";
 import About from "./components/sections/About";
-import Contact from "./components/sections/Contact";
-import Experience from "./components/sections/Experience";
 import Hero from "./components/sections/Hero";
 
 export default function Portfolio() {
@@ -11,7 +9,7 @@ export default function Portfolio() {
 
   const closeMenu = () => setMenuOpen(false);
 
-  const navItems = ["about", "experience"];
+  const navItems = ["about", "experience", "skills", "projects", "contact"];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 text-gray-800 scroll-smooth">
@@ -106,7 +104,10 @@ export default function Portfolio() {
       {/* Sections */}
       <Hero />
       <About />
-      <Experience />
+      {/* <Experience />
+      <Skills />
+      <Projects />
+      <Contact /> */}
 
       {/* Footer */}
       <footer className="bg-white py-6 mt-12 shadow-inner">
