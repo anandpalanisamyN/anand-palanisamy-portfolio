@@ -1,7 +1,9 @@
 import { useState } from "react";
 import About from "./components/sections/About";
+import Contact from "./components/sections/Contact";
 import Experience from "./components/sections/Experience";
 import Hero from "./components/sections/Hero";
+import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
 
 export default function Portfolio() {
@@ -108,8 +110,8 @@ export default function Portfolio() {
       <About />
       <Experience />
       <Skills />
-      {/* <Projects />
-      <Contact /> */}
+      <Projects />
+      <Contact />
 
       {/* Footer */}
       <footer className="bg-white py-6 mt-12 shadow-inner">
