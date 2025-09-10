@@ -3,7 +3,7 @@ name: Deploy Portfolio to GitHub Pages
 on:
   push:
     branches:
-      - master  # deploy on push to master
+      - master
 
 permissions:
   contents: read
@@ -24,6 +24,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
+
+      - name: Clean npm cache and modules
+        run: |
+          rm -rf node_modules package-lock.json
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
