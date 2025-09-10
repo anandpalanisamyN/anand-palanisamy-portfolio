@@ -1,9 +1,9 @@
-name: Anand Palanisamy Portfolio Deployment
+name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
     branches:
-      - master
+      - master  # deploy on push to master
 
 permissions:
   contents: read
@@ -15,14 +15,32 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+
     steps:
-      - name: Checkout
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4️⃣ Build the project
+      - name: Build
+        run: npm run build
+
+      # 5️⃣ Upload build folder as artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
+      # 6️⃣ Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
