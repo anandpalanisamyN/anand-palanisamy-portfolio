@@ -3,7 +3,7 @@ import { CardContent } from "../ui/card";
 
 const projects = [
   {
-    title: "HealPros (Healthcare, US)",
+    title: "Healthcare, US",
     description: [
       "Developed healthcare application for managing patient test requests.",
       "Built backend with .NET 8 + AWS (Lambda, S3, SNS, SQS).",
@@ -12,7 +12,7 @@ const projects = [
     ]
   },
   {
-    title: "SSENSE (E-commerce, Canada)",
+    title: "E-commerce, Canada",
     description: [
       "Enhanced features for e-commerce platform with NodeJS + AWS.",
       "Integrated systems with REST APIs for smooth data exchange.",
@@ -21,7 +21,7 @@ const projects = [
     ]
   },
   {
-    title: "Load Board (Logistics, US)",
+    title: "Logistics, US",
     description: [
       "Built role-based logistics platform with carrier/shipper modules.",
       "Implemented load bidding and shipment lifecycle automation.",
