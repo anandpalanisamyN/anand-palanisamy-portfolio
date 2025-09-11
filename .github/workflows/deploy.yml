@@ -1,4 +1,4 @@
-name: Deploy Portfolio to GitHub Pages
+name: Deploy Anand Palanisamy Portfolio to GitHub Pages
 
 on:
   push:
@@ -31,6 +31,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
+
+      - name: Remove old dist folder
+        run: rm -rf dist
 
       - name: Build project
         run: npm run build
