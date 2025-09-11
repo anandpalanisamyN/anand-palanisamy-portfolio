@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anandpalanisamyn.github.io/anand-palanisamy-portfolio/sitemap.xml
