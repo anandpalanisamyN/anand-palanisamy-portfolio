@@ -3,6 +3,7 @@ import About from "./components/sections/About";
 import Contact from "./components/sections/Contact";
 import Experience from "./components/sections/Experience";
 import Hero from "./components/sections/Hero";
+import LearningPlan from "./components/sections/LearningPlan";
 import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
 
@@ -13,7 +14,7 @@ export default function Portfolio() {
 
   const closeMenu = () => setMenuOpen(false);
 
-  const navItems = ["about", "experience", "skills", "projects", "contact"];
+  const navItems = ["about", "experience", "skills", "projects", "learning", "contact"];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 text-gray-800 scroll-smooth">
@@ -111,6 +112,7 @@ export default function Portfolio() {
       <Experience />
       <Skills />
       <Projects />
+      <LearningPlan />
       <Contact />
 
       {/* Footer */}
