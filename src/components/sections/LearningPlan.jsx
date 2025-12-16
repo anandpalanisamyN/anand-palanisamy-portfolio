@@ -230,79 +230,79 @@ export default function LearningPlan() {
           <div className="inline-block mb-4 px-6 py-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full text-sm font-semibold shadow-lg animate-pulse">
             🚀 90-Day Intensive Program
           </div>
-          <h2 className="text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 leading-tight">
             .NET Core 8 Mastery
           </h2>
-          <p className="text-2xl text-gray-700 max-w-3xl mx-auto mb-8 leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mb-8 leading-relaxed">
             Transform from <span className="font-bold text-indigo-600">Zero to Full-Stack Developer</span> in 3 Months
           </p>
           
           {/* Stats Cards */}
-          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-8">
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border-2 border-indigo-200 hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold text-indigo-600 mb-2">90</div>
-              <div className="text-gray-600 font-medium">Days</div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto mb-8">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 shadow-lg border-2 border-indigo-200 hover:scale-105 transition-transform">
+              <div className="text-3xl sm:text-4xl font-bold text-indigo-600 mb-2">90</div>
+              <div className="text-sm sm:text-base text-gray-600 font-medium">Days</div>
             </div>
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border-2 border-purple-200 hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold text-purple-600 mb-2">180</div>
-              <div className="text-gray-600 font-medium">Hours</div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 shadow-lg border-2 border-purple-200 hover:scale-105 transition-transform">
+              <div className="text-3xl sm:text-4xl font-bold text-purple-600 mb-2">180</div>
+              <div className="text-sm sm:text-base text-gray-600 font-medium">Hours</div>
             </div>
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border-2 border-pink-200 hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold text-pink-600 mb-2">4</div>
-              <div className="text-gray-600 font-medium">Phases</div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 shadow-lg border-2 border-pink-200 hover:scale-105 transition-transform">
+              <div className="text-3xl sm:text-4xl font-bold text-pink-600 mb-2">4</div>
+              <div className="text-sm sm:text-base text-gray-600 font-medium">Phases</div>
             </div>
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border-2 border-blue-200 hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold text-blue-600 mb-2">2</div>
-              <div className="text-gray-600 font-medium">Projects</div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 shadow-lg border-2 border-blue-200 hover:scale-105 transition-transform">
+              <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">2</div>
+              <div className="text-sm sm:text-base text-gray-600 font-medium">Projects</div>
             </div>
           </div>
         </div>
 
         {/* Daily Time Structure */}
-        <div className="mb-16 bg-white/90 backdrop-blur-lg rounded-3xl shadow-2xl p-10 border-2 border-indigo-300 relative overflow-hidden">
+        <div className="mb-16 bg-white/90 backdrop-blur-lg rounded-3xl shadow-2xl p-6 sm:p-8 md:p-10 border-2 border-indigo-300 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-indigo-200 to-purple-200 rounded-full -mr-32 -mt-32 opacity-20"></div>
           
           <div className="relative z-10">
             <div className="flex items-center justify-center gap-3 mb-4">
               <span className="text-5xl animate-bounce">⏰</span>
-              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                 Daily Time Structure
               </h3>
             </div>
-            <p className="text-center text-gray-600 mb-2 text-lg font-medium">2 Hours Daily – Non-Negotiable</p>
-            <p className="text-center text-indigo-600 mb-8 italic font-semibold">Follow this rhythm every single day</p>
+            <p className="text-center text-gray-600 mb-2 text-base sm:text-lg font-medium">2 Hours Daily – Non-Negotiable</p>
+            <p className="text-center text-indigo-600 mb-8 italic font-semibold text-sm sm:text-base">Follow this rhythm every single day</p>
             
-            <div className="grid md:grid-cols-4 gap-6 mb-8">
-              <div className="group bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl border-2 border-blue-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8">
+              <div className="group bg-gradient-to-br from-blue-50 to-blue-100 p-6 sm:p-8 rounded-2xl border-2 border-blue-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-blue-600"></div>
-                <div className="text-5xl mb-4">📺</div>
-                <div className="text-blue-700 font-bold text-xl mb-3">0–15 min</div>
-                <div className="text-gray-800 font-medium">Watch video</div>
-                <div className="text-gray-600 text-sm mt-2">Absorb concepts</div>
+                <div className="text-4xl sm:text-5xl mb-4">📺</div>
+                <div className="text-blue-700 font-bold text-lg sm:text-xl mb-3">0–15 min</div>
+                <div className="text-gray-800 font-medium text-sm sm:text-base">Watch video</div>
+                <div className="text-gray-600 text-xs sm:text-sm mt-2">Absorb concepts</div>
               </div>
               
-              <div className="group bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl border-2 border-green-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
+              <div className="group bg-gradient-to-br from-green-50 to-green-100 p-6 sm:p-8 rounded-2xl border-2 border-green-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 to-green-600"></div>
-                <div className="text-5xl mb-4">⌨️</div>
-                <div className="text-green-700 font-bold text-xl mb-3">15–45 min</div>
-                <div className="text-gray-800 font-medium">Code along</div>
-                <div className="text-gray-600 text-sm mt-2">Pause & type actively</div>
+                <div className="text-4xl sm:text-5xl mb-4">⌨️</div>
+                <div className="text-green-700 font-bold text-lg sm:text-xl mb-3">15–45 min</div>
+                <div className="text-gray-800 font-medium text-sm sm:text-base">Code along</div>
+                <div className="text-gray-600 text-xs sm:text-sm mt-2">Pause & type actively</div>
               </div>
               
-              <div className="group bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 rounded-2xl border-2 border-yellow-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
+              <div className="group bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 sm:p-8 rounded-2xl border-2 border-yellow-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-yellow-600"></div>
-                <div className="text-5xl mb-4">🛠️</div>
-                <div className="text-yellow-700 font-bold text-xl mb-3">45–90 min</div>
-                <div className="text-gray-800 font-medium">Hands-on task</div>
-                <div className="text-gray-600 text-sm mt-2">Build without video</div>
+                <div className="text-4xl sm:text-5xl mb-4">🛠️</div>
+                <div className="text-yellow-700 font-bold text-lg sm:text-xl mb-3">45–90 min</div>
+                <div className="text-gray-800 font-medium text-sm sm:text-base">Hands-on task</div>
+                <div className="text-gray-600 text-xs sm:text-sm mt-2">Build without video</div>
               </div>
               
-              <div className="group bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl border-2 border-purple-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
+              <div className="group bg-gradient-to-br from-purple-50 to-purple-100 p-6 sm:p-8 rounded-2xl border-2 border-purple-300 hover:shadow-2xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-400 to-purple-600"></div>
-                <div className="text-5xl mb-4">📝</div>
-                <div className="text-purple-700 font-bold text-xl mb-3">90–120 min</div>
-                <div className="text-gray-800 font-medium">Revise & commit</div>
-                <div className="text-gray-600 text-sm mt-2">Push to GitHub</div>
+                <div className="text-4xl sm:text-5xl mb-4">📝</div>
+                <div className="text-purple-700 font-bold text-lg sm:text-xl mb-3">90–120 min</div>
+                <div className="text-gray-800 font-medium text-sm sm:text-base">Revise & commit</div>
+                <div className="text-gray-600 text-xs sm:text-sm mt-2">Push to GitHub</div>
               </div>
             </div>
             
@@ -327,21 +327,21 @@ export default function LearningPlan() {
             >
               {/* Phase Header */}
               <div
-                className={`bg-gradient-to-r ${phase.color} p-8 cursor-pointer relative overflow-hidden group`}
+                className={`bg-gradient-to-r ${phase.color} p-6 sm:p-8 cursor-pointer relative overflow-hidden group`}
                 onClick={() => togglePhase(phase.id)}
               >
                 <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="relative z-10 flex justify-between items-center">
-                  <div className="flex items-center gap-6">
-                    <div className="bg-white/20 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center text-white text-2xl font-bold border-2 border-white/30">
+                  <div className="flex items-center gap-3 sm:gap-6">
+                    <div className="bg-white/20 backdrop-blur-sm rounded-full w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center text-white text-xl sm:text-2xl font-bold border-2 border-white/30">
                       {phaseIndex + 1}
                     </div>
                     <div>
-                      <h3 className="text-3xl font-extrabold text-white mb-2 drop-shadow-lg">{phase.title}</h3>
-                      <p className="text-white/95 text-xl font-medium drop-shadow">{phase.subtitle}</p>
+                      <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-white mb-1 sm:mb-2 drop-shadow-lg">{phase.title}</h3>
+                      <p className="text-white/95 text-sm sm:text-base md:text-xl font-medium drop-shadow">{phase.subtitle}</p>
                     </div>
                   </div>
-                  <button className="text-white text-5xl font-bold hover:scale-125 transition-transform bg-white/20 rounded-full w-14 h-14 flex items-center justify-center">
+                  <button className="text-white text-3xl sm:text-4xl md:text-5xl font-bold hover:scale-125 transition-transform bg-white/20 rounded-full w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex items-center justify-center flex-shrink-0">
                     {expandedPhase === phase.id ? "−" : "+"}
                   </button>
                 </div>
@@ -405,23 +405,23 @@ export default function LearningPlan() {
 
                         {/* Docs */}
                         {section.docs && (
-                          <div className="mb-6 p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl border-2 border-blue-200 hover:border-blue-300 transition-all shadow-md hover:shadow-lg">
-                            <div className="flex items-center gap-3 mb-4">
-                              <div className="bg-blue-500 text-white rounded-lg p-2 shadow-md">
-                                <span className="text-2xl">📘</span>
+                          <div className="mb-6 p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl border-2 border-blue-200 dark:border-blue-700 hover:border-blue-300 dark:hover:border-blue-600 transition-all shadow-md hover:shadow-lg">
+                            <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+                              <div className="bg-blue-500 text-white rounded-lg p-1.5 sm:p-2 shadow-md">
+                                <span className="text-xl sm:text-2xl">📘</span>
                               </div>
-                              <span className="font-bold text-gray-800 text-lg">Official Documentation</span>
+                              <span className="font-bold text-gray-800 dark:text-gray-200 text-base sm:text-lg">Official Documentation</span>
                             </div>
                             {Array.isArray(section.docs) ? (
-                              <ul className="space-y-3">
+                              <ul className="space-y-2 sm:space-y-3">
                                 {section.docs.map((doc, docIdx) => (
                                   <li key={docIdx} className="flex items-start gap-2">
-                                    <span className="text-blue-500 mt-1">📄</span>
+                                    <span className="text-blue-500 dark:text-blue-400 mt-1 text-sm sm:text-base">📄</span>
                                     <a
                                       href={doc}
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      className="text-blue-600 hover:text-blue-800 hover:underline text-sm font-medium break-all"
+                                      className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline text-xs sm:text-sm font-medium break-all"
                                     >
                                       {doc}
                                     </a>
@@ -433,10 +433,10 @@ export default function LearningPlan() {
                                 href={section.docs}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-600 hover:text-blue-800 hover:underline text-sm font-medium flex items-center gap-2 group"
+                                className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline text-xs sm:text-sm font-medium flex items-center gap-2 group break-all"
                               >
-                                <span className="group-hover:translate-x-2 transition-transform">→</span>
-                                {section.docs}
+                                <span className="group-hover:translate-x-2 transition-transform flex-shrink-0">→</span>
+                                <span className="break-all">{section.docs}</span>
                               </a>
                             )}
                           </div>
