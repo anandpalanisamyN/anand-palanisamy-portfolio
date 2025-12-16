@@ -1,6 +1,6 @@
 {
   "name": "anand-palanisamy-portfolio-site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "A modern personal portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.",
   "author": "anandpalanisamy.n@gmail.com",
